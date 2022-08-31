@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  font-size: 100px;
 }
 
 .App-logo {
@@ -36,4 +37,14 @@
     transform: rotate(360deg);
   }
 }
-
+.first{
+  font-size: large;
+  color: blue;
+}
+.container{
+  margin-bottom: 50px;
+  width: 30%;
+  display: flex;
+  border: 1px solid black;
+  flex-direction: column;
+}
