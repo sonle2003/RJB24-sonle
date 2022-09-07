@@ -1,6 +1,7 @@
 .App {
   text-align: center;
   font-size: 100px;
+
 }
 
 .App-logo {
@@ -37,14 +38,103 @@
     transform: rotate(360deg);
   }
 }
-.first{
-  font-size: large;
-  color: blue;
-}
+/* Basic1 */
 .container{
-  margin-bottom: 50px;
-  width: 30%;
+  align-items: center;
+  background-color: white;
+  width: 450px;
+  height: 230px;
   display: flex;
-  border: 1px solid black;
-  flex-direction: column;
+  margin:250px 250px 250px 350px;
 }
+.flex1 {
+  margin: 17px;
+  border: 1px solid black;
+}
+.img1{
+  width:200px;
+  height: 200px; 
+ 
+}
+.content{
+  float: right;
+  padding: 0px 30px 0px 30px;
+}
+html{
+  background-color: black;
+}
+.content_a{
+  font-size: 18px;
+  padding-top: 10px;
+}
+.content_b{
+  padding: 15px 0px 0px 0px;
+  font-size: 16px;
+  color: rgb(122, 119, 119);
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/* Basic2 */
+.container_2{
+  align-items: center;
+  background-color: white;
+  width: 300px;
+  height: auto;
+  display: flex;
+  margin:250px 250px 250px 350px;
+}
+.content_0{
+  padding:0px 23px 0px  32px;
+}
+.img2{
+  display: block;
+}
+.content_1,.number{
+  color: rgb(109, 107, 107);
+  font-size:small;
+  padding-left: 5px;
+}
+.content_2{
+  color: rgb(57, 161, 247);
+  font-size:small;
+}
+.star{
+  padding:10px 0px 0px 5px;
+}
+.content_4{
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+/* Basic3 */
+.img3{
+  width: 380px;
+  height: 280px;
+  padding: 13px 0px 20px 10px;
+}
+.container_3{
+  align-items: center;
+  background-color: white;
+  width: 400px;
+  height: auto;
+  display: flex;
+  margin:250px 250px 250px 350px;
+}
+.content_x{
+  padding-left: 15px;
+}
+.content_y,.content_t{
+  color: rgb(109, 107, 107);
+  font-size:medium;
+  padding-bottom: 15px;
+}
+.drfurion{
+  color: black;
+}
+.content_z{
+  font-size: 21px;
+  font-weight: 500;
+  color: #444;
+  padding-bottom: 15px;
+}
+
+
+
