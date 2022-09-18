@@ -1,0 +1,35 @@
+/* Basic1 */
+.container{
+    align-items: center;
+    background-color: white;
+    width: 450px;
+    height: 230px;
+    display: flex;
+    margin:250px 250px 250px 350px;
+  }
+  .flex1 {
+    margin: 17px;
+    border: 1px solid black;
+  }
+  .img1{
+    width:200px;
+    height: 200px; 
+   
+  }
+  .content{
+    float: right;
+    padding: 0px 30px 0px 30px;
+  }
+  /* html{
+    background-color: black;
+  } */
+  .content_a{
+    font-size: 18px;
+    padding-top: 10px;
+  }
+  .content_b{
+    padding: 15px 0px 0px 0px;
+    font-size: 16px;
+    color: rgb(122, 119, 119);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }

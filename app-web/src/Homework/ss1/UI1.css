@@ -1,0 +1,22 @@
+.flex-container {
+    display: flex;
+    flex-direction: column;
+}
+.flex-container > div {
+    line-height: 50px;
+}
+.percent{
+    padding: 10px 50px 10px 30px;
+    color: white;
+}
+.txt1{
+    padding: 10px 70px 10px 30px;
+    color: white;
+}
+.border{
+    border: 1px solid black;
+    width: 900px;
+}
+
+
+

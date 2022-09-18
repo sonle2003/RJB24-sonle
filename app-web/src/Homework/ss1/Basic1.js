@@ -1,4 +1,4 @@
-// import "./Style.css";
+import ".//basic1.css";
 import React from "react";
 import anh1 from "./image/1.jpg";
 

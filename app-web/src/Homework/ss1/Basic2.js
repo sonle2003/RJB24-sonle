@@ -1,4 +1,5 @@
 import React from "react";
+import ".//basic2.css";
 import anh2 from "./image/2.jpg";
 import {AiOutlineStar,AiFillStar} from "react-icons/ai"
 

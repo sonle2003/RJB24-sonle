@@ -1,4 +1,6 @@
+import React from "react";
 import anh3 from "./image/3.jpg";
+import "./basic3.css";
 
 function Bai3() {
   return (

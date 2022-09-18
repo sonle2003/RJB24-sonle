@@ -1,0 +1,31 @@
+/* Basic2 */
+.container_2{
+    align-items: center;
+    background-color: white;
+    width: 300px;
+    height: auto;
+    display: flex;
+    margin:250px 250px 250px 350px;
+  }
+  .content_0{
+    padding:0px 23px 0px  32px;
+  }
+  .img2{
+    display: block;
+  }
+  .content_1,.number{
+    color: rgb(109, 107, 107);
+    font-size:small;
+    padding-left: 5px;
+  }
+  .content_2{
+    color: rgb(57, 161, 247);
+    font-size:small;
+  }
+  .star{
+    padding:10px 0px 0px 5px;
+  }
+  .content_4{
+    font-weight: 600;
+    margin-bottom: 30px;
+  }
