@@ -1,4 +1,4 @@
-import PrintCB4 from "../PrintCB4";
+import PrintCB4 from "./PrintCB4";
 import React from 'react'
 import { FaMonero } from "react-icons/fa";
 

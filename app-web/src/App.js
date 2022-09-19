@@ -12,20 +12,22 @@ import SocialBlock from "./Homework/ss1/SocialBlock";
 import ChartColumn from "./Homework/ss1/ChartColumn";
 import Formtest from "./Examples/components/Formtest";
 import Router from "./Examples/components/Router";
+import Person from "./Homework/ss1/Person";
 
    
 function App() {
   return (
     <>
-      {/* <Main/>
+    {/* <ChartColumn/>
+      <Main/>
       <Bai2/>
       <Bai3/> */}
       {/* <Header/> */}
-      {/* <Profile/> */}
-      {/* <SocialBlock/> */}
-      <ChartColumn/>
+       {/* <Profile/> */}
+      {/* <SocialBlock/> 
       {/* <Formtest/> */}
       {/* <Router/> */}
+      {/* <Person/>  */}
     </>
   );
 }

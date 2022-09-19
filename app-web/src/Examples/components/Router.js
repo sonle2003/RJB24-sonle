@@ -1,14 +1,24 @@
-import React from 'react'
+import React, { useInsertionEffect } from 'react'
 import {BrowserRouter,Routes,Route,Link}from 'react-router-dom'
-import New from './New'
+import Formtest from './Formtest'
+import Home from'./Home'
+import Login from './Login'
 
 export default function Router() {
+    const[user,setUser]=React.useState(
+        console.log(user),
+    )
+    // useEffect(()=>{
+    //     console.log(user)
+    // },[user])
   return (
     <>
         <BrowserRouter>
+        <Link to="/login">Login</Link>
+        <Link to="/home" style={{padding:50}}>Home</Link>
             <Routes>
-                <Link to="/next"></Link>
-                <Route path='/next' element={<New/>}/>
+                <Route path='/home' element={<Home/>}/>
+                <Route path='/login' element={<Formtest login={setUser}/>}/>
                 <Route
                     path='*'
                     element={

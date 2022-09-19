@@ -1,0 +1,43 @@
+.flexbox{
+    width: 222px;
+    display: inline-block;
+    margin-left: 80px;
+    border: 1px solid black;
+}
+.work{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.name{
+    width: 30%;
+    height: 0;
+    text-align: center;
+    font-size: 15px;
+    display: table-cell;
+}
+.tip,.work{
+    color: rgb(94, 92, 92);
+    padding-left: 15px;
+}
+.button1{
+    background-color: red;
+    border: none;
+    margin-left: 20px;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: left;
+    color: white;
+}
+.button2{
+    width: 180px;
+    background-color:rgb(9, 197, 9);
+    border: none;
+    margin:0px 0px 20px 20px;
+    padding: 20px 40px 20px 20px;
+    margin-top: 20px;
+    text-align: left;
+    color: white;
+}
+.dob,.bg,.edu,.res{
+    font-size: 10;
+}
